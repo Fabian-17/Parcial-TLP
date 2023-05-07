@@ -1,0 +1,58 @@
+body{
+
+    background-image: url(img/52901.jpg);
+}
+.primero{
+
+width: 300px;
+
+}
+.segundo{
+
+width: 300px;
+
+}
+.tercero{
+
+width: 300px;
+
+}
+.tarjetas{
+margin: 20px;
+display: flex;
+justify-content: space-around;
+
+}
+
+.card-img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  @media (min-width: 576px) {
+    .card-img {
+      height: 200px;
+    }
+  }
+  .card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    padding: 1rem;
+  }
+  a{
+
+color: black;
+
+  }
