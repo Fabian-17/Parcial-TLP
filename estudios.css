@@ -1,0 +1,86 @@
+body {
+    background-image: url(img/52901.jpg);
+}
+.fondo{
+
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 45px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    border-radius: 30px;
+    opacity: 0.8;
+    
+    }
+    .primaria{
+    
+    width: 95%;
+    height: 500px;
+    margin: 30px;
+    margin-bottom: 70px;
+    border: solid;
+    }
+    
+    .secundaria{
+    
+    width: 95%;
+    height: 500px;
+    margin: 30px;
+    margin-bottom: 70px;
+    border: solid;
+    }
+    
+    .terciario{
+    
+    width: 95%;
+    height: 500px;
+    margin: 30px;
+    border: solid;
+    }
+    
+    .foto1{
+    
+    width: 25%;
+    height: 200px;
+    border: solid;
+    margin: 30px;
+    }
+    
+    .foto2{
+    
+    width: 25%;
+    height: 200px;
+    border: solid;
+    margin: 30px; 
+    }
+    
+    .foto3{
+    
+    width: 25%;
+    height: 200px;
+    border: solid;
+    margin: 30px;
+    }
+    
+    .titulopri{
+    
+    display: flex;
+    justify-content: center;
+    
+    }
+    .titulosec{
+    
+      display: flex;
+      justify-content: center;
+      
+      }
+    
+      .tituloter{
+    
+        display: flex;
+        justify-content: center;
+        
+        }
+        
