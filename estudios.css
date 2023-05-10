@@ -1,86 +1,250 @@
 body {
-    background-image: url(img/52901.jpg);
+  background-image: url(img/52901.jpg);
 }
-.fondo{
+.fondo {
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 45px;
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  border-radius: 30px;
+  opacity: 0.8;
+}
 
-    background-color: white;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-left: 45px;
-    padding-right: 60px;
-    padding-top: 5px;
-    padding-bottom: 40px;
-    border-radius: 30px;
-    opacity: 0.8;
-    
-    }
-    .primaria{
-    
-    width: 95%;
-    height: 500px;
-    margin: 30px;
-    margin-bottom: 70px;
-    border: solid;
-    }
-    
-    .secundaria{
-    
-    width: 95%;
-    height: 500px;
-    margin: 30px;
-    margin-bottom: 70px;
-    border: solid;
-    }
-    
-    .terciario{
-    
-    width: 95%;
-    height: 500px;
-    margin: 30px;
-    border: solid;
-    }
-    
-    .foto1{
-    
-    width: 25%;
+@media(max-width: 768px){
+img{
+width: 100%
+}
+
+}
+ 
+
+
+
+
+/*Las siguientes clases, carrera1, foto1 y titulo1 hacen referencia al primer bloque del apartado de estudio, carrera1 es todo el recuadro en el cual van los contenidos, titulo1 es el nombre de la carrera que aparece en la esquina superior derecha y foto1 es el recuadro en el cual va la foto de ejemplo*/
+
+.carrera1 {
+  width: 95%;
+  height: 600px;
+  margin: 30px;
+  margin-bottom: 70px;
+  border: solid;
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: 45% 10% 45%;
+}
+
+@media(max-width: 768px){
+
+.carrera1{
+
+  height: 1200px;
+  grid-template-rows: 20% 10% 70%;
+}
+
+}
+
+.foto1 {
+  width: 70%;
+  height: 70%;
+  border: solid;
+  margin: 30px;
+}
+@media(max-width: 768px){
+
+.titulo1{
+
+  display: grid;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+}
+}
+
+@media(max-width: 768px){
+
+  .foto1{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
     height: 200px;
-    border: solid;
-    margin: 30px;
-    }
-    
+
+  }
+}
+
+.titulo1 {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+/*Aqui termina el primer bloque*/
+
+
+
+
+
+
+
+/*Lo mismo que en la anterior, las siguientes clases, carrera2, foto2 y titulo2 hacen referencia al segundo bloque del apartado de estudio, carrera2 es todo el recuadro en el cual van los contenidos, titulo2 es el nombre de la carrera que aparece en la esquina superior derecha y foto2 es el recuadro en el cual va la foto de ejemplo*/
+
+
+.carrera2 {
+  width: 95%;
+  height: 750px;
+  margin: 30px;
+  margin-bottom: 70px;
+  border: solid;
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: 40% 20% 40%;
+}
+
+@media(max-width: 768px){
+
+  .carrera2{
+  
+    height: 1300px;
+    grid-template-rows: 20% 10% 70%;
+  }
+  
+  }
+
+.foto2 {
+  width: 70%;
+  height: 70%;
+  border: solid;
+  margin: 30px;
+}
+@media(max-width: 768px){
+
+  .titulo2{
+  
+    display: grid;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  
+  }
+
+  }
+
+  @media(max-width: 768px){
+
     .foto2{
-    
-    width: 25%;
-    height: 200px;
-    border: solid;
-    margin: 30px; 
+      display: grid;
+      grid-column-start: 1;
+      grid-column-end: 3;
+  
     }
-    
+  }
+  
+
+.titulo2 {
+  display: flex;
+  justify-content: center;
+}
+
+
+/*Aqui termina el segundo bloque*/
+
+
+
+
+
+
+
+
+/*Al igual que en las 2 anteriores las siguientes clases, carrera3, foto3 y titulo3 hacen referencia al tercer bloque del apartado de estudio, carrera3 es todo el recuadro en el cual van los contenidos, titulo3 es el nombre de la carrera que aparece en la esquina superior derecha y foto3 es el recuadro en el cual va la foto de ejemplo*/
+
+
+.carrera3 {
+  width: 95%;
+  height: 450px;
+  margin: 30px;
+  border: solid;
+  display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: 45% 10% 45%;
+}
+
+@media(max-width: 768px){
+
+  .carrera3{
+  
+    height: 1100px;
+    grid-template-rows: 35% 10% 55%;
+  }
+  
+  }
+
+.foto3 {
+  width: 70%;
+  height: 70%;
+  border: solid;
+  margin: 30px;
+}
+@media(max-width: 768px){
+
+  .titulo3{
+  
+    display: grid;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  
+  }
+  
+  }
+
+  @media(max-width: 768px){
+
     .foto3{
-    
-    width: 25%;
-    height: 200px;
-    border: solid;
-    margin: 30px;
+      display: grid;
+      grid-column-start: 1;
+      grid-column-end: 3;
+  
     }
-    
-    .titulopri{
-    
-    display: flex;
-    justify-content: center;
-    
-    }
-    .titulosec{
-    
-      display: flex;
-      justify-content: center;
-      
-      }
-    
-      .tituloter{
-    
-        display: flex;
-        justify-content: center;
-        
-        }
-        
+  }
+  
+
+.titulo3 {
+  display: flex;
+  justify-content: center;
+}
+
+/*Aqui termina el tercer bloque*/
+
+
+
+
+
+
+p{
+
+display: grid;
+grid-row-start: 3;
+grid-column-start: 1;
+grid-column-end: 3;
+margin-left: 50px;
+margin-right: 50px;
+font-size: 25px;
+}
+
+@media(max-width: 768px){
+
+p{
+
+margin-left: 0px;
+margin-right: 0px;
+}
+
+}
+
+/*En este caso predomina mucho el uso de mediaquery ya que se me hacia mas comodo a la hora de hacer responsive la pagina*/
+/*Los nombres tan repetitivos se deben a que como seria lo mismo pero con otro contenido, se me facilitaba a la hora de hacer los estilos*/
