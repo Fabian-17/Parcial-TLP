@@ -30,10 +30,11 @@ body {
 background-color: black;
 width: 82%;
 height: 350px;
-padding: 40px;
+padding: 35px;
 margin-left: 10%;
 margin-right: 5%;
 margin-bottom: 50px;
+
 
   }
 
@@ -41,7 +42,7 @@ margin-bottom: 50px;
 
 .lenguajes{
 
-  height: 1100px;
+  height: 1200px;
   margin-left: 0px;
 }
 
@@ -53,7 +54,7 @@ width: 82%;
 height: 400px;
 margin-left: 10%;
 margin-right: 5%;
-padding: 50px;
+padding: 30px;
 
 }
 
