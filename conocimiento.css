@@ -16,6 +16,16 @@ body {
     grid-template-rows: 1fr 1fr ;
   
   }
+  @media(max-width: 768px){
+
+    .superficie{
+    
+      padding-bottom: 10px;
+
+    }
+  }
+
+  
   .lenguajes{
 background-color: black;
 width: 82%;
@@ -27,13 +37,35 @@ margin-bottom: 50px;
 
   }
 
+@media(max-width: 768px){
+
+.lenguajes{
+
+  height: 1100px;
+  margin-left: 0px;
+}
+
+}
+
   .framework{
 background-color: black;
 width: 82%;
 height: 400px;
 margin-left: 10%;
 margin-right: 5%;
+padding: 50px;
 
+}
+
+
+@media(max-width: 768px){
+
+  .framework{
+  
+    height: 850px;
+    margin-left: 0px;
+  }
+  
   }
 
 img{
