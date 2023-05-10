@@ -3,26 +3,40 @@ body {
 }
 .trabajo1{
 
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     
     }
     .trabajo2{
     
-      margin-left: 10%;
-      margin-right: 10%;
+      margin-left: 20%;
+      margin-right: 20%;
       
       }
       .trabajo3{
     
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 20%;
+        margin-right: 20%;
         
         }
         .trabajo4{
     
-          margin-left: 10%;
-          margin-right: 10%;
+          margin-left: 20%;
+          margin-right: 20%;
           
           }
+
+
+.titulo{
+
+border-radius: 40px;
+border: solid;
+margin-bottom: 50px;
+margin-left: 10%;
+margin-right: 10%;
+box-shadow: 0px 0px 20px 0px red;
+display: flex;
+justify-content: center;
+
+}
     
